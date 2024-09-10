@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"gebrabit_sht35_stm32f303_v1\startup_stm32f303xc.o"
+"gebrabit_sht35_stm32f303_v1\main.o"
+"gebrabit_sht35_stm32f303_v1\gpio.o"
+"gebrabit_sht35_stm32f303_v1\i2c.o"
+"gebrabit_sht35_stm32f303_v1\stm32f3xx_it.o"
+"gebrabit_sht35_stm32f303_v1\stm32f3xx_hal_msp.o"
+"gebrabit_sht35_stm32f303_v1\stm32f3xx_hal_i2c.o"
+"gebrabit_sht35_stm32f303_v1\stm32f3xx_hal_i2c_ex.o"
+"gebrabit_sht35_stm32f303_v1\stm32f3xx_hal.o"
+"gebrabit_sht35_stm32f303_v1\stm32f3xx_hal_rcc.o"
+"gebrabit_sht35_stm32f303_v1\stm32f3xx_hal_rcc_ex.o"
+"gebrabit_sht35_stm32f303_v1\stm32f3xx_hal_gpio.o"
+"gebrabit_sht35_stm32f303_v1\stm32f3xx_hal_dma.o"
+"gebrabit_sht35_stm32f303_v1\stm32f3xx_hal_cortex.o"
+"gebrabit_sht35_stm32f303_v1\stm32f3xx_hal_pwr.o"
+"gebrabit_sht35_stm32f303_v1\stm32f3xx_hal_pwr_ex.o"
+"gebrabit_sht35_stm32f303_v1\stm32f3xx_hal_flash.o"
+"gebrabit_sht35_stm32f303_v1\stm32f3xx_hal_flash_ex.o"
+"gebrabit_sht35_stm32f303_v1\stm32f3xx_hal_exti.o"
+"gebrabit_sht35_stm32f303_v1\stm32f3xx_hal_tim.o"
+"gebrabit_sht35_stm32f303_v1\stm32f3xx_hal_tim_ex.o"
+"gebrabit_sht35_stm32f303_v1\system_stm32f3xx.o"
+"gebrabit_sht35_stm32f303_v1\gebrabit_sht35.o"
+--strict --scatter "GebraBit_SHT35_STM32F303_V1\GebraBit_SHT35_STM32F303_V1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "GebraBit_SHT35_STM32F303_V1.map" -o GebraBit_SHT35_STM32F303_V1\GebraBit_SHT35_STM32F303_V1.axf
